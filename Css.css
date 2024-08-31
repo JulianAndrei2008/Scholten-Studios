@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Snechy", sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: url(paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Imagem-Perfil {
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #2c2828;
+}
+
+.cev1 {
+    background-color: #a5673e;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    margin-left: 450px;
+    margin-top: 150px;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #6d4e31;
+    position: absolute;
+}
+
+.cev2 {
+    background-color: #996d45;
+    align-items: center;
+    justify-content: center;
+    border-radius: 250px;
+    margin-left: 400px;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 2px solid #2c2828;
+    margin-top: 100px;
+    
+
+}
+
+.Caixa_de_Menu {
+    height: 50px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2)
+}
+
+.Menu {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.Lançamentos {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.Biografia {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Perfil {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Login {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Spoilers {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Link-Login {
+    color: #000000;
+    text-decoration: none;
+}
+
+.Link-Biografia {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Link-Spoilers {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Link-Menu {
+    color: #000000;
+    text-decoration: none;
+}
+
+.Link-Lançamentos {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Biografia-Texto {
+    background-color: #caa56e;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-left: -1px;
+    margin-top: 745px;
+    display: flex;
+    height: 750px;
+    width: 1424px;
+    border: 4px solid #6d4e31;
+    position: absolute;
+}
+
+.Caixa-de-Texto {
+    background-color: #d3b68a;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+    height: 700px;
+    width: 1374px;
+    border: 4px solid #6d4e31;
+    position: absolute;
+}
+
+.Discord {
+    background-color: #775931;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 80%;
+    margin-top: 401px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    right: 25px;
+    border: 2px solid #8a6038;
+    position: absolute;
+}
+
+.Simbulo-Discord {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-size: 100px;
+    height: 110px;
+    width: 110px;
+    background: #2c2828;
+    border-radius: 60px;
+    margin-left: 110px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+.Texto-Discord {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    height: 70px;
+    width: 240px;
+    margin-left: 40px;
+    margin-top: 210px;
+    background: rgb(163, 120, 63);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Texto {
+    margin-top: -80px;
+    margin-left: -40px;
+    height: 500px;
+    width: 1200px;
+    font-size: 30px;
+}
+
+.Boas-vindas {
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 5px solid #2c2828;
+    align-items: center;
+    justify-content: center;
+    border-radius: 350px;
+    margin-left: 200px;
+    display: flex;
+    height: 75px;
+    width: 950px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.Texto-Boas-vindas {
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
